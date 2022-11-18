@@ -29,7 +29,7 @@ a{
 /********************************/
 body{
     height: 100vh;
-    background-image: url("../img/test123.jpg"); 
+    background-image: url("../img/gta.jpg"); 
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(2, 7, 38, 0.5);
+    background: rgba(0, 0 ,0, 0.5);
 }
 
 .header__logo{
@@ -108,9 +108,9 @@ body{
 .home__btn-join{
     display: block;
     border: none;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 15px;
-    background-color: rgba(2, 7, 38, 0.8);
+    background-color: rgba(291, 91, 128, 0.8);
     padding: 1rem 2rem;
     color: #fff;
     margin: 10rem 0 0;
@@ -122,8 +122,9 @@ body{
     transition: 0.3s
 }
 .home__btn-join:hover{
+    border: 3px solid black;
     background-color: #fff;
-    color: rgba(2, 7, 38, 0.8);
+    color: rgb(0, 0 ,0);
     letter-spacing: 0.27rem;
 }
 
@@ -188,9 +189,6 @@ body{
     width: 33.3%;
 }
 
-.desc-res{
-    background-color: rgb(2, 7, 38);
-}
 
 /************** reglement ***********/
 .reglement{
@@ -233,7 +231,7 @@ body{
 .desc-info{
     display: flex;
     flex-direction: column;
-    background-color: rgb(2, 7, 38);
+    background: linear-gradient(to bottom, rgb(28, 28, 28), 55%, rgb(291, 91, 128));
     
 }
 

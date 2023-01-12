@@ -205,12 +205,12 @@ body{
     margin-bottom: 2rem;
     text-align: center;
 }
-.reglement__questions li{
+.reglement__questions{
     padding: 0.8rem;
     width: 100%;
-    
+    background-color: rgba(291, 91, 128, 0.8);
     font-size: 1rem;
-    
+    border-radius: 20px;
 }
 
 .reglement__text{
@@ -219,15 +219,21 @@ body{
     border-radius: 15px;
 }
 
+.reglement__text-tag{
+    font-weight: bold;
+}
 .reglement__info{
-    width: 50%;
+    width: 45%;
     color: white;
+    border-radius: 20px;
+    line-height: 1.9em;
 }
 .reglement__info img{
     width: 100%;
     border-radius: 15px;
     margin: 4rem 0 0.7rem;
 }
+
 .desc-info{
     display: flex;
     flex-direction: column;
